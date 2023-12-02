@@ -12,7 +12,7 @@ def getCalibrationValue(input: str) -> int:
 
     firstMatch = pattern.search(input).group(0)
     first = numbers.get(firstMatch, firstMatch)
-	# iterate in reverse in case of strings like 'twone'
+    # iterate in reverse in case of strings like 'twone'
     reversed, i = "", -1
     while not pattern.search(reversed):
         reversed = input[i] + reversed
