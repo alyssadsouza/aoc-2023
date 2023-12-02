@@ -19,7 +19,7 @@ def sumCalibrations(inputFileName: str) -> int:
 
 
 # Test case
-assert (sumCalibrations("test-1.txt") == 142)
+assert (sumCalibrations("input/test-1.txt") == 142)
 
 # Other tests
 assert (getCalibrationValue("asdas1") == 11)
@@ -28,4 +28,4 @@ assert (getCalibrationValue("dsa2sda3s") == 23)
 assert (getCalibrationValue("dsa22sdas") == 22)
 assert (getCalibrationValue("1ds3a223sda4s") == 14)
 
-print("Part 1:", sumCalibrations("input.txt"))
+print("Part 1:", sumCalibrations("input/input.txt"))
